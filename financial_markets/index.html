@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Markets Question Bank</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            color: #000;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .question-box {
+            background-color: #f2f2f2;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .question-box:hover {
+            background-color: #e0e0e0;
+        }
+
+        .answer {
+            display: none;
+            padding: 10px;
+            background-color: #fff;
+            border-top: 1px solid #ccc;
+        }
+
+        .table-container {
+            margin-top: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border: 1px solid #000;
+        }
+
+        th {
+            background-color: #ccc;
+        }
+
+        .show {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Financial Markets Question Bank</h1>
+    
+    <div class="grid-container">
+        <!-- 1. Define financial markets and explain their significance in the economy. -->
+        <div class="question-box" onclick="toggleAnswer(this)">
+            <h3>Define financial markets and explain their significance in the economy.</h3>
+            <div class="answer">
+                <p>Financial markets are platforms where buyers and sellers trade financial assets. These markets facilitate capital formation and liquidity, ensuring efficient allocation of resources in the economy.</p>
+                <ul>
+                    <li>Facilitates capital formation.</li>
+                    <li>Ensures liquidity for assets.</li>
+                    <li>Enables risk management through derivatives.</li>
+                    <li>Supports government and corporate funding.</li>
+                    <li>Helps in price discovery.</li>
+                </ul>
+                <p><strong>Example:</strong> Stock exchanges like the NSE and BSE provide a marketplace for equity trading.</p>
+                <a href="https://www.investopedia.com/terms/f/financial-markets.asp" target="_blank">Learn more</a>
+            </div>
+        </div>
+
+        <!-- 2. List and describe the key characteristics of financial markets. -->
+        <div class="question-box" onclick="toggleAnswer(this)">
+            <h3>List and describe the key characteristics of financial markets.</h3>
+            <div class="answer">
+                <p>Financial markets have distinct characteristics that define their structure and function:</p>
+                <ul>
+                    <li>**Liquidity**: Ability to quickly buy or sell assets without affecting their price.</li>
+                    <li>**Transparency**: Availability of information regarding market transactions and pricing.</li>
+                    <li>**Regulation**: Oversight by government agencies to maintain market integrity.</li>
+                    <li>**Market Participants**: Various entities, including investors, brokers, and institutions.</li>
+                    <li>**Efficiency**: The degree to which prices reflect all available information.</li>
+                </ul>
+                <p><strong>Example:</strong> High liquidity in stock markets enables investors to quickly convert their shares into cash.</p>
+                <a href="https://www.investopedia.com/terms/f/financial-market.asp" target="_blank">Learn more</a>
+            </div>
+        </div>
+
+        <!-- 3. Differentiate between capital markets and money markets with examples. -->
+        <div class="question-box" onclick="toggleAnswer(this)">
+            <h3>Differentiate between capital markets and money markets with examples.</h3>
+            <div class="answer">
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Criteria</th>
+                                <th>Capital Markets</th>
+                                <th>Money Markets</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Purpose</td>
+                                <td>Long-term funding</td>
+                                <td>Short-term liquidity</td>
+                            </tr>
+                            <tr>
+                                <td>Instruments</td>
+                                <td>Stocks, Bonds</td>
+                                <td>Treasury Bills, Commercial Paper</td>
+                            </tr>
+                            <tr>
+                                <td>Risk</td>
+                                <td>Higher</td>
+                                <td>Lower</td>
+                            </tr>
+                            <tr>
+                                <td>Maturity</td>
+                                <td>More than a year</td>
+                                <td>Less than a year</td>
+                            </tr>
+                            <tr>
+                                <td>Examples</td>
+                                <td>Stock exchanges like NSE, BSE</td>
+                                <td>Call Money, Treasury Bills</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p><strong>Example:</strong> The stock market (capital market) and interbank lending (money market) serve different financial needs.</p>
+                <a href="https://www.investopedia.com/terms/c/capitalmarket.asp" target="_blank">Learn more</a>
+            </div>
+        </div>
+
+        <!-- 4. What are debt markets? Discuss their role in the financial system. -->
+        <div class="question-box" onclick="toggleAnswer(this)">
+            <h3>What are debt markets? Discuss their role in the financial system.</h3>
+            <div class="answer">
+                <p>Debt markets, also known as bond markets, are platforms where debt instruments are issued and traded. These markets play a critical role in the financial system by enabling borrowing and lending.</p>
+                <ul>
+                    <li>**Capital Raising**: Governments and corporations issue bonds to raise funds for projects.</li>
+                    <li>**Interest Rate Benchmarking**: Debt instruments help determine interest rates across the economy.</li>
+                    <li>**Liquidity**: Investors can buy and sell debt instruments, providing liquidity.</li>
+                    <li>**Risk Diversification**: Debt markets offer various instruments with different risk profiles.</li>
+                    <li>**Price Discovery**: Helps in determining the fair value of debt instruments through market transactions.</li>
+                </ul>
+                <p><strong>Example:</strong> The issuance of government bonds to finance infrastructure projects.</p>
+                <a href="https://www.investopedia.com/terms/d/debtmarket.asp" target="_blank">Learn more</a>
+            </div>
+        </div>
+
+        <!-- 5. Identify and explain at least three types of financial market instruments. -->
+        <div class="question-box" onclick="toggleAnswer(this)">
+            <h3>Identify and explain at least three types of financial market instruments.</h3>
+            <div class="answer">
+                <p>Financial market instruments can be categorized into various types based on their characteristics and uses:</p>
+                <ul>
+                    <li>**Equities**: Represents ownership in a company, allowing shareholders to participate in its profits.</li>
+                    <li>**Debt Instruments**: Bonds and debentures that represent a loan made by the investor to the issuer.</li>
+                    <li>**Derivatives**: Financial contracts whose value depends on the price of an underlying asset, such as options and futures.</li>
+                    <li>**Mutual Funds**: Investment vehicles that pool money from multiple investors to invest in diversified portfolios.</li>
+                    <li>**Exchange-Traded Funds (ETFs)**: Similar to mutual funds but traded on stock exchanges like individual stocks.</li>
+                </ul>
+                <p><strong>Example:</strong> Stocks (equities), corporate bonds (debt), and options (derivatives).</p>
+                <a href="https://www.investopedia.com/terms/f/financial-instrument.asp" target="_blank">Learn more</a>
+            </div>
+        </div>
+
+        <!-- 6. What is the role of intermediaries in financial markets? Provide examples. -->
+        <div class="question-box" onclick="toggleAnswer(this)">
+            <h3>What is the role of intermediaries in financial markets? Provide examples.</h3>
+            <div class="answer">
+                <p>Intermediaries act as facilitators in financial markets, bridging the gap between buyers and sellers. They play crucial roles in ensuring market efficiency.</p>
+                <ul>
+                    <li>**Facilitating Transactions**: Intermediaries help execute buy and sell orders, providing liquidity.</li>
+                    <li>**Advisory Services**: They provide financial advice and insights to investors.</li>
+                    <li>**Underwriting**: Investment banks underwrite securities, helping companies raise capital.</li>
+                    <li>**Risk Management**: Brokers and dealers help manage financial risks through derivatives and hedging strategies.</li>
+                    <li>**Market Making**: They provide liquidity by being ready to buy or sell securities at any time.</li>
+                </ul>
+                <p><strong>Example:</strong> Investment banks, stock brokers, and mutual fund managers are key financial intermediaries.</p>
+                <a href="https://www.investopedia.com/terms/i/intermediary.asp" target="_blank">Learn more</a>
+            </div>
+        </div>
+
+        <!-- 7. Explain the difference between primary and secondary markets. -->
+        <div class="question-box" onclick="toggleAnswer(this)">
+            <h3>Explain the difference between primary and secondary markets.</h3>
+            <div class="answer">
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Criteria</th>
+                                <th>Primary Market</th>
+                                <th>Secondary Market</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Definition</td>
+                                <td>Market for issuing new securities</td>
+                                <td>Market for trading existing securities</td>
+                            </tr>
+                            <tr>
+                                <td>Participants</td>
+                                <td>Issuers and initial investors</td>
+                                <td>Investors trading among themselves</td>
+                            </tr>
+                            <tr>
+                                <td>Purpose</td>
+                                <td>Raise new capital</td>
+                                <td>Provide liquidity</td>
+                            </tr>
+                            <tr>
+                                <td>Price Determination</td>
+                                <td>Set by the issuer</td>
+                                <td>Determined by supply and demand</td>
+                            </tr>
+                            <tr>
+                                <td>Examples</td>
+                                <td>Initial Public Offerings (IPOs)</td>
+                                <td>Stock exchanges like NSE, NYSE</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p><strong>Example:</strong> An IPO in the primary market vs. trading shares on the stock exchange in the secondary market.</p>
+                <a href="https://www.investopedia.com/terms/p/primarymarket.asp" target="_blank">Learn more</a>
+            </div>
+        </div>
+
+        <!-- 8. Define 'market efficiency' and discuss its types. -->
+        <div class="question-box" onclick="toggleAnswer(this)">
+            <h3>Define 'market efficiency' and discuss its types.</h3>
+            <div class="answer">
+                <p>Market efficiency refers to the degree to which asset prices reflect all available information. It is categorized into three forms:</p>
+                <ul>
+                    <li>**Weak Form Efficiency**: Prices reflect all past trading information. Technical analysis is ineffective.</li>
+                    <li>**Semi-Strong Form Efficiency**: Prices reflect all publicly available information. Fundamental analysis is ineffective.</li>
+                    <li>**Strong Form Efficiency**: Prices reflect all information, both public and private. No one can consistently achieve excess returns.</li>
+                </ul>
+                <p><strong>Example:</strong> In a semi-strong efficient market, new public information (like earnings reports) is quickly incorporated into stock prices.</p>
+                <a href="https://www.investopedia.com/terms/m/marketefficiency.asp" target="_blank">Learn more</a>
+            </div>
+        </div>
+
+        <!-- 9. What is an IPO? Discuss its significance in capital markets. -->
+        <div class="question-box" onclick="toggleAnswer(this)">
+            <h3>What is an IPO? Discuss its significance in capital markets.</h3>
+            <div class="answer">
+                <p>An Initial Public Offering (IPO) is the process through which a private company offers its shares to the public for the first time. This process is significant for various reasons:</p>
+                <ul>
+                    <li>**Capital Generation**: Companies raise funds for expansion and projects.</li>
+                    <li>**Public Profile**: Going public increases a company’s visibility and credibility.</li>
+                    <li>**Liquidity**: IPOs provide liquidity to existing shareholders by allowing them to sell shares in the open market.</li>
+                    <li>**Valuation**: An IPO helps establish a market valuation for the company.</li>
+                    <li>**Employee Benefits**: Companies can offer stock options to employees, enhancing retention and motivation.</li>
+                </ul>
+                <p><strong>Example:</strong> Companies like Facebook and Alibaba raised billions through their IPOs.</p>
+                <a href="https://www.investopedia.com/terms/i/ipo.asp" target="_blank">Learn more</a>
+            </div>
+        </div>
+
+        <!-- 10. Explain the concept of 'risk management' in financial markets. -->
+        <div class="question-box" onclick="toggleAnswer(this)">
+            <h3>Explain the concept of 'risk management' in financial markets.</h3>
+            <div class="answer">
+                <p>Risk management involves identifying, assessing, and prioritizing risks followed by coordinated efforts to minimize, control, and monitor the probability or impact of unfortunate events. It is crucial for investors and companies to safeguard their assets.</p>
+                <ul>
+                    <li>**Risk Identification**: Recognizing potential risks that could affect financial performance.</li>
+                    <li>**Risk Assessment**: Evaluating the potential impact and likelihood of identified risks.</li>
+                    <li>**Risk Mitigation**: Implementing strategies to reduce risks, such as diversification and hedging.</li>
+                    <li>**Monitoring and Reviewing**: Continuously observing the risk environment and adjusting strategies accordingly.</li>
+                    <li>**Compliance**: Ensuring adherence to regulations and standards to avoid legal risks.</li>
+                </ul>
+                <p><strong>Example:</strong> Using derivatives to hedge against currency risk in international trade.</p>
+                <a href="https://www.investopedia.com/terms/r/riskmanagement.asp" target="_blank">Learn more</a>
+            </div>
+        </div>
+
+        <!-- 11. Discuss the role of SEBI in regulating financial markets in India. -->
+        <div class="question-box" onclick="toggleAnswer(this)">
+            <h3>Discuss the role of SEBI in regulating financial markets in India.</h3>
+            <div class="answer">
+                <p>The Securities and Exchange Board of India (SEBI) is the regulatory body for securities markets in India. Its main roles include:</p>
+                <ul>
+                    <li>**Regulating Stock Exchanges**: Ensuring fair practices and protecting investor interests.</li>
+                    <li>**Investor Protection**: Educating and protecting investors from fraudulent practices.</li>
+                    <li>**Market Surveillance**: Monitoring trading activities to prevent insider trading and market manipulation.</li>
+                    <li>**Enforcing Regulations**: Implementing rules and guidelines for market participants.</li>
+                    <li>**Promoting Transparency**: Mandating disclosures by companies to enhance market transparency.</li>
+                </ul>
+                <p><strong>Example:</strong> SEBI's regulations on mutual funds ensure that they operate transparently and in the best interests of investors.</p>
+                <a href="https://www.sebi.gov.in/" target="_blank">Learn more</a>
+            </div>
+        </div>
+
+        <!-- 12. Explain the significance of the Reserve Bank of India (RBI) in the financial system. -->
+        <div class="question-box" onclick="toggleAnswer(this)">
+            <h3>Explain the significance of the Reserve Bank of India (RBI) in the financial system.</h3>
+            <div class="answer">
+                <p>The Reserve Bank of India (RBI) is the central bank of India, playing a pivotal role in the financial system. Its significance includes:</p>
+                <ul>
+                    <li>**Monetary Policy**: Formulating and implementing policies to control inflation and stabilize the currency.</li>
+                    <li>**Regulating Banks**: Supervising commercial banks and ensuring financial stability.</li>
+                    <li>**Issuing Currency**: Managing the issuance and supply of the Indian currency.</li>
+                    <li>**Foreign Exchange Management**: Regulating foreign exchange and maintaining the foreign exchange reserves of the country.</li>
+                    <li>**Financial Inclusion**: Promoting access to financial services for all sections of society.</li>
+                </ul>
+                <p><strong>Example:</strong> RBI's interest rate adjustments influence borrowing and lending rates across the economy.</p>
+                <a href="https://www.rbi.org.in/" target="_blank">Learn more</a>
+            </div>
+        </div>
+
+        <!-- 13. Describe the types of risks associated with investing in financial markets. -->
+        <div class="question-box" onclick="toggleAnswer(this)">
+            <h3>Describe the types of risks associated with investing in financial markets.</h3>
+            <div class="answer">
+                <p>Investing in financial markets involves various risks, including:</p>
+                <ul>
+                    <li>**Market Risk**: The risk of losses due to fluctuations in market prices.</li>
+                    <li>**Credit Risk**: The risk that a borrower will default on their obligations.</li>
+                    <li>**Liquidity Risk**: The risk of not being able to sell an investment quickly enough without incurring a loss.</li>
+                    <li>**Interest Rate Risk**: The risk that changes in interest rates will affect investment values.</li>
+                    <li>**Operational Risk**: Risks arising from operational failures, such as fraud or system failures.</li>
+                </ul>
+                <p><strong>Example:</strong> A downturn in the stock market poses market risk for investors holding equity.</p>
+                <a href="https://www.investopedia.com/terms/r/risk.asp" target="_blank">Learn more</a>
+            </div>
+        </div>
+
+        <!-- 14. What are mutual funds? Discuss their types and advantages. -->
+        <div class="question-box" onclick="toggleAnswer(this)">
+            <h3>What are mutual funds? Discuss their types and advantages.</h3>
+            <div class="answer">
+                <p>Mutual funds are investment vehicles that pool money from multiple investors to purchase a diversified portfolio of stocks, bonds, or other securities. They are managed by professional fund managers.</p>
+                <p><strong>Types of Mutual Funds:</strong></p>
+                <ul>
+                    <li>**Equity Funds**: Invest primarily in stocks.</li>
+                    <li>**Debt Funds**: Invest in fixed-income securities like bonds.</li>
+                    <li>**Hybrid Funds**: Combine investments in equities and debt.</li>
+                    <li>**Index Funds**: Track a specific market index.</li>
+                    <li>**Sector Funds**: Focus on specific sectors of the economy.</li>
+                </ul>
+                <p><strong>Advantages:</strong></p>
+                <ul>
+                    <li>**Diversification**: Reduces risk by spreading investments across various securities.</li>
+                    <li>**Professional Management**: Managed by experts who make investment decisions.</li>
+                    <li>**Liquidity**: Mutual fund shares can be bought or sold easily.</li>
+                    <li>**Affordability**: Allows investors to access a diversified portfolio with a smaller amount of capital.</li>
+                </ul>
+                <p><strong>Example:</strong> Investing in a large-cap equity fund to gain exposure to top-performing stocks.</p>
+                <a href="https://www.investopedia.com/terms/m/mutualfund.asp" target="_blank">Learn more</a>
+            </div>
+        </div>
+
+        <!-- 15. Discuss the concept of 'credit rating' and its importance in financial markets. -->
+        <div class="question-box" onclick="toggleAnswer(this)">
+            <h3>Discuss the concept of 'credit rating' and its importance in financial markets.</h3>
+            <div class="answer">
+                <p>A credit rating is an assessment of the creditworthiness of an issuer, such as a corporation or government, typically expressed as a letter grade. It indicates the likelihood that the issuer will default on its debt obligations.</p>
+                <p><strong>Importance of Credit Ratings:</strong></p>
+                <ul>
+                    <li>**Investor Confidence**: Higher ratings signal lower risk, encouraging investment.</li>
+                    <li>**Interest Rates**: Issuers with higher ratings can borrow at lower interest rates.</li>
+                    <li>**Market Liquidity**: High-rated securities are more liquid, attracting more investors.</li>
+                    <li>**Regulatory Compliance**: Some institutional investors can only invest in securities above a certain rating.</li>
+                </ul>
+                <p><strong>Example:</strong> A bond rated 'AAA' is considered low-risk, while a 'B' rating indicates higher risk.</p>
+                <a href="https://www.investopedia.com/terms/c/creditrating.asp" target="_blank">Learn more</a>
+            </div>
+        </div>
+
+        <!-- 16. Explain the concept of 'diversification' in investment strategy. -->
+        <div class="question-box" onclick="toggleAnswer(this)">
+            <h3>Explain the concept of 'diversification' in investment strategy.</h3>
+            <div class="answer">
+                <p>Diversification is an investment strategy that involves spreading investments across various financial instruments, industries, and other categories to reduce risk. The rationale is that a portfolio of diverse assets will, on average, yield higher returns and pose a lower risk than any individual investment.</p>
+                <p><strong>Benefits of Diversification:</strong></p>
+                <ul>
+                    <li>**Risk Reduction**: Losses in one area can be offset by gains in another.</li>
+                    <li>**Smoother Returns**: Diversified portfolios tend to be less volatile.</li>
+                    <li>**Access to Various Opportunities**: Exposure to different sectors can enhance overall returns.</li>
+                </ul>
+                <p><strong>Example:</strong> An investor holding stocks from various sectors (technology, healthcare, finance) rather than concentrating in one sector.</p>
+                <a href="https://www.investopedia.com/terms/d/diversification.asp" target="_blank">Learn more</a>
+            </div>
+        </div>
+
+        <!-- 17. What is the role of the stock exchange in the financial market? -->
+        <div class="question-box" onclick="toggleAnswer(this)">
+            <h3>What is the role of the stock exchange in the financial market?</h3>
+            <div class="answer">
+                <p>The stock exchange plays a crucial role in the financial market by providing a platform for buying and selling securities. Its main functions include:</p>
+                <ul>
+                    <li>**Facilitating Trading**: Provides a marketplace for investors to trade shares.</li>
+                    <li>**Price Discovery**: Helps determine the price of securities based on supply and demand.</li>
+                    <li>**Liquidity Provision**: Ensures that investors can easily buy and sell securities.</li>
+                    <li>**Regulation**: Establishes rules and regulations to maintain fair trading practices.</li>
+                    <li>**Information Dissemination**: Provides investors with data on stock performance and market trends.</li>
+                </ul>
+                <p><strong>Example:</strong> The National Stock Exchange (NSE) and Bombay Stock Exchange (BSE) in India facilitate stock trading.</p>
+                <a href="https://www.investopedia.com/terms/s/stockexchange.asp" target="_blank">Learn more</a>
+            </div>
+        </div>
+
+        <!-- 18. Discuss the various methods of raising capital for businesses. -->
+        <div class="question-box" onclick="toggleAnswer(this)">
+            <h3>Discuss the various methods of raising capital for businesses.</h3>
+            <div class="answer">
+                <p>Businesses can raise capital through various methods, including:</p>
+                <ul>
+                    <li>**Equity Financing**: Raising funds by selling shares of the company.</li>
+                    <li>**Debt Financing**: Borrowing funds through loans or issuing bonds that need to be repaid with interest.</li>
+                    <li>**Venture Capital**: Attracting investments from venture capitalists in exchange for equity, usually in startups.</li>
+                    <li>**Crowdfunding**: Raising small amounts of money from a large number of people, typically via online platforms.</li>
+                    <li>**Retained Earnings**: Using profits reinvested into the business instead of distributing them to shareholders.</li>
+                </ul>
+                <p><strong>Example:</strong> A tech startup might raise capital through venture capital or crowdfunding.</p>
+                <a href="https://www.investopedia.com/terms/c/capitalraising.asp" target="_blank">Learn more</a>
+            </div>
+        </div>
+
+        <!-- 19. Explain the concept of 'hedging' in financial markets. -->
+        <div class="question-box" onclick="toggleAnswer(this)">
+            <h3>Explain the concept of 'hedging' in financial markets.</h3>
+            <div class="answer">
+                <p>Hedging is a risk management strategy used to offset potential losses in investments by taking an opposite position in a related asset. It aims to reduce the impact of adverse price movements.</p>
+                <p><strong>Common Hedging Instruments:</strong></p>
+                <ul>
+                    <li>**Options**: Contracts that give the holder the right to buy or sell an asset at a specified price.</li>
+                    <li>**Futures**: Contracts to buy or sell an asset at a predetermined price at a specified date.</li>
+                    <li>**Swaps**: Agreements between two parties to exchange cash flows based on different financial instruments.</li>
+                </ul>
+                <p><strong>Example:</strong> An investor holding stocks might buy put options to hedge against a potential decline in stock prices.</p>
+                <a href="https://www.investopedia.com/terms/h/hedging.asp" target="_blank">Learn more</a>
+            </div>
+        </div>
+
+        <!-- 20. Discuss the impact of economic indicators on financial markets. -->
+        <div class="question-box" onclick="toggleAnswer(this)">
+            <h3>Discuss the impact of economic indicators on financial markets.</h3>
+            <div class="answer">
+                <p>Economic indicators are statistics that provide information about the overall economic performance of a country. They significantly impact financial markets as they influence investor sentiment and market trends. Key indicators include:</p>
+                <ul>
+                    <li>**Gross Domestic Product (GDP)**: Indicates the overall economic health; rising GDP often leads to bullish markets.</li>
+                    <li>**Unemployment Rate**: High unemployment can indicate economic troubles, leading to bearish sentiment.</li>
+                    <li>**Inflation Rate**: High inflation can prompt central banks to raise interest rates, impacting borrowing and investment.</li>
+                    <li>**Consumer Confidence Index**: High confidence levels generally correlate with increased consumer spending, positively influencing markets.</li>
+                </ul>
+                <p><strong>Example:</strong> A report showing lower unemployment rates can boost stock prices as it reflects a stronger economy.</p>
+                <a href="https://www.investopedia.com/terms/e/economicindicators.asp" target="_blank">Learn more</a>
+            </div>
+        </div>
+
+        <!-- 21. What is the role of the Reserve Bank of India (RBI) in the Indian financial system? -->
+        <div class="question-box" onclick="toggleAnswer(this)">
+            <h3>What is the role of the Reserve Bank of India (RBI) in the Indian financial system?</h3>
+            <div class="answer">
+                <p>The Reserve Bank of India (RBI) is the central bank of India, responsible for regulating the country's monetary policy and maintaining financial stability. Its key functions include:</p>
+                <ul>
+                    <li>**Monetary Policy Regulation**: Controlling inflation and stabilizing the currency by adjusting interest rates.</li>
+                    <li>**Regulating Financial Institutions**: Supervising banks and financial institutions to ensure their solvency and adherence to regulations.</li>
+                    <li>**Issuing Currency**: Sole authority for issuing and managing the Indian currency.</li>
+                    <li>**Foreign Exchange Management**: Managing the Foreign Exchange Management Act (FEMA) to facilitate external trade.</li>
+                    <li>**Lender of Last Resort**: Providing financial assistance to banks in distress.</li>
+                </ul>
+                <p><strong>Example:</strong> The RBI's decision to cut interest rates can stimulate economic growth by encouraging borrowing.</p>
+                <a href="https://www.rbi.org.in" target="_blank">Learn more</a>
+            </div>
+        </div>
+
+        <!-- 22. Explain the concept of 'inflation' and its types. -->
+        <div class="question-box" onclick="toggleAnswer(this)">
+            <h3>Explain the concept of 'inflation' and its types.</h3>
+            <div class="answer">
+                <p>Inflation is the rate at which the general level of prices for goods and services rises, leading to a decrease in purchasing power. It is typically measured by the Consumer Price Index (CPI) or Producer Price Index (PPI).</p>
+                <p><strong>Types of Inflation:</strong></p>
+                <ul>
+                    <li>**Demand-Pull Inflation**: Occurs when demand for goods exceeds supply.</li>
+                    <li>**Cost-Push Inflation**: Results from rising production costs, leading to higher prices.</li>
+                    <li>**Built-In Inflation**: Driven by adaptive expectations, where businesses raise prices in anticipation of higher costs.</li>
+                </ul>
+                <p><strong>Example:</strong> A surge in consumer demand during the holiday season can lead to demand-pull inflation.</p>
+                <a href="https://www.investopedia.com/terms/i/inflation.asp" target="_blank">Learn more</a>
+            </div>
+        </div>
+
+        <!-- 23. Discuss the role of SEBI in regulating the securities market in India. -->
+        <div class="question-box" onclick="toggleAnswer(this)">
+            <h3>Discuss the role of SEBI in regulating the securities market in India.</h3>
+            <div class="answer">
+                <p>The Securities and Exchange Board of India (SEBI) is the regulatory authority for the securities market in India. Its main functions include:</p>
+                <ul>
+                    <li>**Protecting Investor Interests**: Ensuring that investors are educated and safeguarded from fraudulent practices.</li>
+                    <li>**Promoting Fair Trading Practices**: Regulating stock exchanges and other market intermediaries to ensure fair practices.</li>
+                    <li>**Facilitating Capital Market Development**: Encouraging the growth of the securities market and enhancing its efficiency.</li>
+                    <li>**Regulating Mutual Funds and Portfolio Managers**: Setting rules for mutual funds and managing investment advisers.</li>
+                </ul>
+                <p><strong>Example:</strong> SEBI's measures to prevent insider trading protect investors' interests.</p>
+                <a href="https://www.sebi.gov.in" target="_blank">Learn more</a>
+            </div>
+        </div>
+
+        <!-- 24. What is the difference between the primary market and the secondary market? -->
+        <div class="question-box" onclick="toggleAnswer(this)">
+            <h3>What is the difference between the primary market and the secondary market?</h3>
+            <div class="answer">
+                <p>The primary market and secondary market are two distinct segments of the financial market:</p>
+                <ul>
+                    <li>**Primary Market**: This is where new securities are created and sold for the first time. Companies raise capital by issuing new shares or bonds directly to investors.</li>
+                    <li>**Secondary Market**: This market allows investors to buy and sell securities that have already been issued. It provides liquidity to investors and helps determine the market price of securities.</li>
+                </ul>
+                <p><strong>Example:</strong> An IPO (Initial Public Offering) occurs in the primary market, while trading of the same shares on a stock exchange is part of the secondary market.</p>
+                <a href="https://www.investopedia.com/terms/p/primarymarket.asp" target="_blank">Learn more</a>
+            </div>
+        </div>
+
+        <!-- 25. What are the key differences between debt and equity financing? -->
+        <div class="question-box" onclick="toggleAnswer(this)">
+            <h3>What are the key differences between debt and equity financing?</h3>
+            <div class="answer">
+                <p>Debt financing and equity financing are two primary methods of raising capital, each with distinct characteristics:</p>
+                <ul>
+                    <li>**Debt Financing**: Involves borrowing funds that must be repaid with interest. It does not dilute ownership but creates a financial obligation.</li>
+                    <li>**Equity Financing**: Involves selling shares of the company to raise capital. It dilutes ownership but does not require repayment of funds.</li>
+                </ul>
+                <p><strong>Key Differences:</strong></p>
+                <ul>
+                    <li>**Repayment**: Debt must be repaid; equity does not require repayment.</li>
+                    <li>**Ownership**: Debt holders do not have ownership; equity investors do.</li>
+                    <li>**Risk**: Debt carries bankruptcy risk; equity has higher market risk.</li>
+                    <li>**Tax Treatment**: Interest on debt is tax-deductible; dividends on equity are not.</li>
+                </ul>
+                <p><strong>Example:</strong> A company issuing bonds is utilizing debt financing, while selling shares to the public constitutes equity financing.</p>
+                <a href="https://www.investopedia.com/terms/d/debtfinancing.asp" target="_blank">Learn more</a>
+            </div>
+        </div>
+
+        <!-- 26. What is the capital market? Discuss its components. -->
+        <div class="question-box" onclick="toggleAnswer(this)">
+            <h3>What is the capital market? Discuss its components.</h3>
+            <div class="answer">
+                <p>The capital market is a financial market where long-term debt or equity-backed securities are bought and sold. It plays a vital role in the economic development of a country by providing companies with access to capital.</p>
+                <p><strong>Components of the Capital Market:</strong></p>
+                <ul>
+                    <li>**Primary Market**: Where new securities are issued, such as initial public offerings (IPOs).</li>
+                    <li>**Secondary Market**: Where existing securities are traded, providing liquidity to investors.</li>
+                    <li>**Equity Market**: A segment of the capital market where shares of companies are issued and traded.</li>
+                    <li>**Debt Market**: A segment where bonds and other debt instruments are issued and traded.</li>
+                </ul>
+                <p><strong>Example:</strong> The New York Stock Exchange (NYSE) is a major secondary capital market where stocks are traded.</p>
+                <a href="https://www.investopedia.com/terms/c/capitalmarket.asp" target="_blank">Learn more</a>
+            </div>
+        </div>
+
+        <!-- 27. What are the different types of financial instruments? -->
+        <div class="question-box" onclick="toggleAnswer(this)">
+            <h3>What are the different types of financial instruments?</h3>
+            <div class="answer">
+                <p>Financial instruments are contracts that represent an asset to one party and a liability to another. They can be categorized into various types:</p>
+                <ul>
+                    <li>**Equity Instruments**: Represent ownership in a company, such as stocks.</li>
+                    <li>**Debt Instruments**: Represent borrowed funds that must be repaid, such as bonds and loans.</li>
+                    <li>**Derivatives**: Financial contracts whose value is derived from the performance of an underlying asset, such as options and futures.</li>
+                    <li>**Hybrid Instruments**: Combine features of debt and equity, such as convertible bonds.</li>
+                </ul>
+                <p><strong>Example:</strong> Stocks are equity instruments, while bonds are debt instruments.</p>
+                <a href="https://www.investopedia.com/terms/f/financialinstrument.asp" target="_blank">Learn more</a>
+            </div>
+        </div>
+
+        <!-- 28. Explain the concept of 'risk' in finance. -->
+        <div class="question-box" onclick="toggleAnswer(this)">
+            <h3>Explain the concept of 'risk' in finance.</h3>
+            <div class="answer">
+                <p>Risk in finance refers to the potential for loss or less-than-expected returns on an investment. It is a fundamental concept that influences investment decisions and financial planning. There are various types of financial risks:</p>
+                <ul>
+                    <li>**Market Risk**: The risk of losses due to changes in market prices.</li>
+                    <li>**Credit Risk**: The risk of default by borrowers.</li>
+                    <li>**Liquidity Risk**: The risk of not being able to sell an asset quickly without a significant loss.</li>
+                    <li>**Operational Risk**: The risk of loss due to inadequate or failed internal processes.</li>
+                </ul>
+                <p><strong>Example:</strong> Investing in stocks carries market risk due to price fluctuations.</p>
+                <a href="https://www.investopedia.com/terms/r/risk.asp" target="_blank">Learn more</a>
+            </div>
+        </div>
+
+        <!-- 29. What is the significance of credit rating agencies? -->
+        <div class="question-box" onclick="toggleAnswer(this)">
+            <h3>What is the significance of credit rating agencies?</h3>
+            <div class="answer">
+                <p>Credit rating agencies (CRAs) assess the creditworthiness of issuers of debt securities and provide ratings that indicate the likelihood of default. Their significance includes:</p>
+                <ul>
+                    <li>**Investor Guidance**: Ratings help investors make informed decisions about where to invest.</li>
+                    <li>**Risk Assessment**: They provide a benchmark for assessing the risk associated with various securities.</li>
+                    <li>**Market Stability**: CRAs contribute to market stability by promoting transparency and accountability in the issuance of debt.</li>
+                </ul>
+                <p><strong>Example:</strong> A high credit rating for a corporation indicates a lower risk of default, attracting more investors.</p>
+                <a href="https://www.investopedia.com/terms/c/creditrating.asp" target="_blank">Learn more</a>
+            </div>
+        </div>
+
+        <!-- 30. How does the stock market affect the economy? -->
+        <div class="question-box" onclick="toggleAnswer(this)">
+            <h3>How does the stock market affect the economy?</h3>
+            <div class="answer">
+                <p>The stock market plays a crucial role in the economy through several mechanisms:</p>
+                <ul>
+                    <li>**Capital Formation**: It allows companies to raise capital by issuing shares, facilitating business expansion.</li>
+                    <li>**Wealth Effect**: Rising stock prices increase wealth, leading to higher consumer spending.</li>
+                    <li>**Economic Indicators**: Stock market performance is often seen as an indicator of overall economic health.</li>
+                    <li>**Job Creation**: Successful companies in the stock market can expand operations and create jobs.</li>
+                </ul>
+                <p><strong>Example:</strong> A booming stock market can lead to increased consumer confidence and spending, stimulating economic growth.</p>
+                <a href="https://www.investopedia.com/terms/s/stockmarket.asp" target="_blank">Learn more</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleAnswer(questionBox) {
+            const answer = questionBox.querySelector('.answer');
+            answer.style.display = answer.style.display === 'none' || !answer.style.display ? 'block' : 'none';
+        }
+    </script>
+</body>
+</html>
